@@ -5,5 +5,7 @@ public class Main {
 
         WelcomeAndClosing welcomeandclosing = new WelcomeAndClosing();
         welcomeandclosing.showWelcome();
+        Game game = new Game();
+
     }
 }
