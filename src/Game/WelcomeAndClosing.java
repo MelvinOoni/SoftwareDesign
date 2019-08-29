@@ -2,7 +2,7 @@ package Game;
 
 public class WelcomeAndClosing {
 
-    public static void showWelcome()
+    public void showWelcome()
     {
         String msg =  " ***  WELCOME at the  ***\n"
                 + "   *  three PENGUINS  *\n"
@@ -14,7 +14,7 @@ public class WelcomeAndClosing {
         System.out.println(msg);
     }
 
-    public static void showInstructions()
+    public void showInstructions()
     {
         String msg = "You must feed the animals to keep up the zoo.\n"
                 + "Use 'new day' to advance to the next day\n"
